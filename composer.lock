@@ -292,12 +292,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "e7a24c14110c96dbf9045e1881d4dec7fe73a366"
+                "reference": "942d895ea2b2b9f499723c91fff84c4ca72d484e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/e7a24c14110c96dbf9045e1881d4dec7fe73a366",
-                "reference": "e7a24c14110c96dbf9045e1881d4dec7fe73a366",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/942d895ea2b2b9f499723c91fff84c4ca72d484e",
+                "reference": "942d895ea2b2b9f499723c91fff84c4ca72d484e",
                 "shasum": ""
             },
             "require": {
@@ -326,6 +326,7 @@
                 "silverstripe/userforms": "*",
                 "silverstripe/widgets": "*",
                 "simplepie/simplepie": "*",
+                "thisisbd/silverstripe-maintenance-mode": "*",
                 "unclecheese/betterbuttons": "*",
                 "unclecheese/eventcalendar": "1.0.x",
                 "undefinedoffset/sortablegridfield": "*"
@@ -336,7 +337,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/2.1.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2015-07-30 18:01:18"
+            "time": "2015-08-05 20:15:43"
         },
         {
             "name": "md/rss-display",
@@ -1233,6 +1234,51 @@
                 "rss"
             ],
             "time": "2015-06-16 04:30:23"
+        },
+        {
+            "name": "thisisbd/silverstripe-maintenance-mode",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thisisbd/silverstripe-maintenance-mode.git",
+                "reference": "5a89ac71cad0fedb971daeea9c56ebde6dd7a42d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thisisbd/silverstripe-maintenance-mode/zipball/5a89ac71cad0fedb971daeea9c56ebde6dd7a42d",
+                "reference": "5a89ac71cad0fedb971daeea9c56ebde6dd7a42d",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/cms": "~3.1",
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "maintenance-mode"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Darren-Lee Joseph",
+                    "email": "darrenleejoseph@gmail.com"
+                }
+            ],
+            "description": "SilverStripe Maintenance Mode Module.  Allows an administrator to put site in offline mode with 503 status to display a 'Coming Soon', 'Under Construction' or 'Down for Maintenance' Page to regular visitors, whilst allowing a logged in admin user to browse and make changes to the site.",
+            "homepage": "http://github.com/thisisbd/silverstripe-maintenance-mode",
+            "keywords": [
+                "Maintenance mode",
+                "coming soon",
+                "landing page",
+                "offline page",
+                "silverstripe",
+                "under construction",
+                "utility page"
+            ],
+            "time": "2015-07-21 02:47:22"
         },
         {
             "name": "unclecheese/betterbuttons",
